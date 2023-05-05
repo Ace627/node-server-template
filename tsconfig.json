@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    // 设定编译后的 JavaScript 文件使用的模块化方案
+    "module": "commonjs",
+    "declaration": true,
+    // 是否移除编译后的 JavaScript 文件的注释
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    // 是否允许引入 JSON 文件
+    "resolveJsonModule": true,
+    // 模块加载兼容模式,可以使用 import from 语法导入 commonJS 模块
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // 设定编译后的 JavaScript 文件的 ECMAScript 目标版本
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    // 解析非相对模块名的基准目录
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    // 代码中使用的模块文件名是否必须和文件系统中的文件名保持大小写一致
+    "forceConsistentCasingInFileNames": false,
+    // 不允许 switch 表达式中存在 fallthrough case，即如果某个 case 内不存在 break 或 return 关键字，会抛出错误。
+    // 注意：只有当该 case 中存在代码逻辑但是无 break 或 return 时才会抛出错误。如果 case 内无逻辑代码则不会抛出错误。
+    "noFallthroughCasesInSwitch": false
+  }
+}
