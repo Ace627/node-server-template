@@ -9,7 +9,7 @@ async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule)
   // 配置静态资源目录
   app.useStaticAssets('public')
-  // 配置异常响应拦截器
+  // 配置全局异常拦截器
   app.useGlobalFilters(new ExceptionInterceptor())
   // 配置全局响应拦截器
   app.useGlobalInterceptors(new ResponseInterceptor())

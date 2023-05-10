@@ -2,7 +2,7 @@ import { Controller, Get, Query } from '@nestjs/common'
 import { AppService } from './app.service'
 import dayjs from 'dayjs'
 
-import holidays from './mock/holidays.json'
+import holidays from '@/mock/holidays.json'
 
 @Controller()
 export class AppController {
