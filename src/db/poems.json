@@ -1,5 +1,4 @@
 [
-  { "dynasty": "唐朝", "author": "高适", "title": "别董大二首", "digests": "莫愁前路无知己，天下谁人不识君。" },
   { "dynasty": "唐朝", "author": "李白", "title": "清平乐·画堂晨起", "digests": "应是天仙狂醉，乱把白云揉碎！" },
   { "dynasty": "唐朝", "author": "李白", "title": "南陵别儿童入京", "digests": "仰天大笑出门去，我辈岂是蓬蒿人。" },
   { "dynasty": "唐朝", "author": "李白", "title": "侠客行", "digests": "十步杀一人，千里不留行。" },
@@ -8,43 +7,104 @@
   { "dynasty": "唐朝", "author": "李白", "title": "上李邕", "digests": "大鹏一日同风起，扶摇直上九万里。" },
   { "dynasty": "唐朝", "author": "李白", "title": "赠从兄襄阳少府皓", "digests": "托身白刃里，杀人红尘中。" },
   { "dynasty": "唐朝", "author": "李白", "title": "望庐山瀑布", "digests": "飞流直下三千尺，疑是银河落九天。" },
+  { "dynasty": "唐朝", "author": "李白", "title": "将进酒", "digests": "人生得意须尽欢，莫使金樽空对月。" },
+  { "dynasty": "唐朝", "author": "李白", "title": "将进酒", "digests": "天生我材必有用，千金散尽还复来。" },
+
+  { "dynasty": "唐朝", "author": "高适", "title": "别董大二首", "digests": "莫愁前路无知己，天下谁人不识君。" },
+  { "dynasty": "唐朝", "author": "岑参", "title": "白雪歌送武判官归京", "digests": "忽如一夜春风来，千树万树梨花开。" },
+  { "dynasty": "唐朝", "author": "元稹", "title": "闻乐天授江州司马", "digests": "垂死病中惊坐起，暗风吹雨入寒窗。" },
+  { "dynasty": "唐朝", "author": "杜荀鹤", "title": "小松", "digests": "时人不识凌云木，直待凌云始道高。" },
+  { "dynasty": "唐朝", "author": "曹松", "title": "己亥岁感事", "digests": "凭君莫话封侯事，一将功成万骨枯。" },
+  { "dynasty": "唐朝", "author": "李贺", "title": "南园十三首·其五", "digests": "男儿何不带吴钩，收取关山五十州？" },
+  { "dynasty": "唐朝", "author": "孟郊", "title": "登科后", "digests": "春风得意马蹄疾，一日看尽长安花。" },
+  { "dynasty": "唐朝", "author": "贯休", "title": "献钱尚父", "digests": "满堂花醉三千客，一剑霜寒十四州。" },
+
+  { "dynasty": "唐朝", "author": "罗隐", "title": "蜂", "digests": "采得百花成蜜后，为谁辛苦为谁甜。" },
+  { "dynasty": "唐朝", "author": "罗隐", "title": "自遣", "digests": "今朝有酒今朝醉，明日愁来明日愁。" },
+
+  { "dynasty": "唐朝", "author": "颜真卿", "title": "劝学", "digests": "黑发不知勤学早，白首方悔读书迟。" },
+  { "dynasty": "唐朝", "author": "颜真卿", "title": "劝学", "digests": "三更灯火五更鸡，正是男儿读书时。" },
 
   { "dynasty": "唐朝", "author": "李商隐", "title": "无题·重帏深下莫愁堂", "digests": "直道相思了无益，未妨惆怅是清狂。" },
   { "dynasty": "唐朝", "author": "李商隐", "title": "无题二首·其一", "digests": "身无彩凤双飞翼，心有灵犀一点通。" },
+
   { "dynasty": "唐朝", "author": "杜甫", "title": "奉赠韦左丞丈二十二韵", "digests": "读书破万卷，下笔如有神。" },
   { "dynasty": "唐朝", "author": "杜甫", "title": "望岳", "digests": "会当凌绝顶，一览众山小。" },
   { "dynasty": "唐朝", "author": "杜甫", "title": "饮中八仙歌", "digests": "天子呼来不上船，自称臣是酒中仙。" },
+  { "dynasty": "唐朝", "author": "杜甫", "title": "赠花卿", "digests": "此曲只应天上有，人间能得几回闻。" },
+  { "dynasty": "唐朝", "author": "杜甫", "title": "前出塞九首·其六", "digests": "射人先射马，擒贼先擒王。" },
+  { "dynasty": "唐朝", "author": "杜甫", "title": "茅屋为秋风所破歌", "digests": "安得广厦千万间，大庇天下寒士俱欢颜！风雨不动安如山。" },
+
   { "dynasty": "唐朝", "author": "白居易", "title": "琵琶行", "digests": "同是天涯沦落人，相逢何必曾相识。" },
-  { "dynasty": "唐朝", "author": "李贺", "title": "南园十三首·其五", "digests": "男儿何不带吴钩，收取关山五十州？" },
-  { "dynasty": "唐朝", "author": "孟郊", "title": "登科后", "digests": "春风得意马蹄疾，一日看尽长安花。" },
-  { "dynasty": "唐朝", "author": "颜真卿", "title": "劝学", "digests": "黑发不知勤学早，白首方悔读书迟。" },
-  { "dynasty": "唐朝", "author": "贯休", "title": "献钱尚父", "digests": "满堂花醉三千客，一剑霜寒十四州。" },
+  { "dynasty": "唐朝", "author": "白居易", "title": "长恨歌", "digests": "春宵苦短日高起，从此君王不早朝。" },
+  { "dynasty": "唐朝", "author": "白居易", "title": "问刘十九", "digests": "晚来天欲雪，能饮一杯无？" },
+  { "dynasty": "唐朝", "author": "白居易", "title": "钱塘湖春行", "digests": "乱花渐欲迷人眼，浅草才能没马蹄。" },
+
   { "dynasty": "唐朝", "author": "王翰", "title": "凉州词", "digests": "醉卧沙场君莫笑，古来征战几人回？" },
   { "dynasty": "唐朝", "author": "王维", "title": "使至塞上", "digests": "大漠孤烟直，长河落日圆。" },
   { "dynasty": "唐朝", "author": "王维", "title": "老将行", "digests": "一身转战三千里，一剑曾当百万师。" },
+
   { "dynasty": "唐朝", "author": "王昌龄", "title": "从军行七首·其四", "digests": "黄沙百战穿金甲，不破楼兰终不还。" },
+  { "dynasty": "唐朝", "author": "王昌龄", "title": "出塞二首", "digests": "但使龙城飞将在，不教胡马度阴山。" },
   { "dynasty": "唐朝", "author": "王昌龄", "title": "送柴侍御", "digests": "青山一道同云雨，明月何曾是两乡。" },
+
   { "dynasty": "唐朝", "author": "韩愈 ", "title": "早春呈水部张十八员外", "digests": "天街小雨润如酥，草色遥看近却无。" },
+
+  { "dynasty": "五代", "author": "李煜", "title": "浪淘沙令·帘外雨潺潺", "digests": "梦里不知身是客，一晌贪欢。" },
+  { "dynasty": "五代", "author": "李煜", "title": "虞美人·春花秋月何时了", "digests": "小楼昨夜又东风，故国不堪回首月明中。" },
+  { "dynasty": "五代", "author": "李煜", "title": "虞美人·春花秋月何时了", "digests": "问君能有几多愁？恰似一江春水向东流。" },
+
   { "dynasty": "宋朝", "author": "苏轼", "title": "临江仙·送钱穆父", "digests": "人生如逆旅，我亦是行人。" },
   { "dynasty": "宋朝", "author": "苏轼", "title": "水调歌头·黄州快哉亭赠张偓佺", "digests": "一点浩然气，千里快哉风。" },
   { "dynasty": "宋朝", "author": "苏轼", "title": "临江仙·夜归临皋", "digests": "小舟从此逝，江海寄余生。" },
   { "dynasty": "宋朝", "author": "苏轼", "title": "惠崇春江晚景二首", "digests": "竹外桃花三两枝，春江水暖鸭先知。" },
+  { "dynasty": "宋朝", "author": "苏轼", "title": "江城子·乙卯正月二十日夜记梦", "digests": "十年生死两茫茫，不思量，自难忘。" },
+  { "dynasty": "宋朝", "author": "苏轼", "title": "春宵", "digests": "春宵一刻值千金，花有清香月有阴。" },
+  { "dynasty": "宋朝", "author": "苏轼", "title": "和董传留别", "digests": "粗缯大布裹生涯，腹有诗书气自华。" },
+  { "dynasty": "宋朝", "author": "苏轼", "title": "西江月·世事一场大梦", "digests": "世事一场大梦，人生几度秋凉？" },
+  { "dynasty": "宋朝", "author": "苏轼", "title": "念奴娇·赤壁怀古", "digests": "羽扇纶巾，谈笑间，樯橹灰飞烟灭。" },
+  { "dynasty": "宋朝", "author": "苏轼", "title": "浣溪沙·游蕲水清泉寺", "digests": "谁道人生无再少？门前流水尚能西！休将白发唱黄鸡。" },
 
   { "dynasty": "宋朝", "author": "陆游", "title": "冬夜读书示子聿", "digests": "纸上得来终觉浅，绝知此事要躬行。" },
   { "dynasty": "宋朝", "author": "陆游", "title": "游山西村", "digests": "山重水复疑无路，柳暗花明又一村。" },
+
   { "dynasty": "宋朝", "author": "黄庭坚", "title": "寄黄几复", "digests": "桃李春风一杯酒，江湖夜雨十年灯。" },
+  { "dynasty": "宋朝", "author": "唐琬", "title": "钗头凤·世情薄", "digests": "世情薄，人情恶，雨送黄昏花易落。" },
+
+  { "dynasty": "宋朝", "author": "苏麟", "title": "断句", "digests": "近水楼台先得月，向阳花木易为春。" },
+  { "dynasty": "宋朝", "author": "晏殊", "title": "浣溪沙·一曲新词酒一杯", "digests": "无可奈何花落去，似曾相识燕归来。" },
+
   { "dynasty": "宋朝", "author": "辛弃疾", "title": "贺新郎·甚矣吾衰矣", "digests": "我见青山多妩媚，料青山，见我应如是。" },
   { "dynasty": "宋朝", "author": "辛弃疾", "title": "永遇乐·京口北固亭怀古", "digests": "想当年，金戈铁马，气吞万里如虎。" },
+  { "dynasty": "宋朝", "author": "辛弃疾", "title": "永遇乐·京口北固亭怀古", "digests": "斜阳草树，寻常巷陌，人道寄奴曾住。" },
+  { "dynasty": "宋朝", "author": "辛弃疾", "title": "西江月·夜行黄沙道中", "digests": "稻花香里说丰年。听取蛙声一片。" },
+
+  { "dynasty": "宋朝", "author": "柳永", "title": "雨霖铃·寒蝉凄切", "digests": "多情自古伤离别，更那堪，冷落清秋节！" },
   { "dynasty": "宋朝", "author": "柳永", "title": "蝶恋花·伫倚危楼风细细", "digests": "衣带渐宽终不悔，为伊消得人憔悴。" },
+
   { "dynasty": "宋朝", "author": "刘过", "title": "唐多令·芦叶满汀洲", "digests": "欲买桂花同载酒，终不似，少年游。" },
   { "dynasty": "宋朝", "author": "文天祥", "title": "千秋祭", "digests": "人生自古谁无死，留取丹心照汗青。" },
+
   { "dynasty": "宋朝", "author": "李清照", "title": "夏日绝句", "digests": "生当作人杰，死亦为鬼雄。" },
+  { "dynasty": "宋朝", "author": "李清照", "title": "如梦令·常记溪亭日暮", "digests": "争渡，争渡，惊起一滩鸥鹭。" },
+  { "dynasty": "宋朝", "author": "李清照", "title": "鹧鸪天·桂花", "digests": "何须浅碧深红色，自是花中第一流。" },
+  { "dynasty": "宋朝", "author": "李清照", "title": "醉花阴·薄雾浓云愁永昼", "digests": "莫道不销魂，帘卷西风，人比黄花瘦。" },
+  { "dynasty": "宋朝", "author": "李清照", "title": "声声慢·寻寻觅觅", "digests": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。" },
+  { "dynasty": "宋朝", "author": "李清照", "title": "一剪梅·红藕香残玉簟秋", "digests": "花自飘零水自流。一种相思，两处闲愁。" },
+
   { "dynasty": "宋朝", "author": "岳飞", "title": "满江红·写怀", "digests": "莫等闲，白了少年头，空悲切。" },
   { "dynasty": "元朝", "author": "唐珙", "title": "题龙阳县青草湖", "digests": "醉后不知天在水，满船清梦压星河。" },
   { "dynasty": "清朝", "author": "龚自珍", "title": "己亥杂诗·其五", "digests": "落红不是无情物，化作春泥更护花。" },
   { "dynasty": "清朝", "author": "龚自珍", "title": "己亥杂诗·其二百二十", "digests": "我劝天公重抖擞，不拘一格降人才。" },
   { "dynasty": "清朝", "author": "纳兰性德", "title": "木兰花·拟古决绝词柬友", "digests": "人生若只如初见，何事秋风悲画扇。" },
+  { "dynasty": "清朝", "author": "纳兰性德", "title": "木兰花·拟古决绝词柬友", "digests": "等闲变却故人心，却道故人心易变。" },
+  { "dynasty": "清朝", "author": "林则徐", "title": "赴戍登程口占示家人二首", "digests": "苟利国家生死以，岂因祸福避趋之。" },
+
   { "dynasty": "现代", "author": "王国维", "title": "蝶恋花·阅尽天涯离别苦", "digests": "最是人间留不住，朱颜辞镜花辞树。" },
   { "dynasty": "现代", "author": "毛泽东", "title": "沁园春·雪", "digests": "山舞银蛇，原驰蜡象，欲与天公试比高。" },
+  { "dynasty": "现代", "author": "毛泽东", "title": "清平乐·会昌", "digests": "东方欲晓，莫道君行早。" },
+  { "dynasty": "现代", "author": "毛泽东", "title": "七绝·改西乡隆盛诗赠父亲", "digests": "埋骨何须桑梓地，人生无处不青山。" },
+  { "dynasty": "现代", "author": "毛泽东", "title": "七律·人民解放军占领南京", "digests": "天若有情天亦老，人间正道是沧桑。" },
+
   { "dynasty": "现代", "author": "鲁迅", "title": "自嘲", "digests": "横眉冷对千夫指，俯首甘为孺子牛。" }
 ]

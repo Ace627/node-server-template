@@ -5,10 +5,13 @@
 ```bash
 # 克隆项目
 git clone https://github.com/Ace627/node-server-template.git
+
 # 进入项目目录
 cd node-server-template
+
 # 安装依赖 | 建议不要直接使用 cnpm 安装依赖，会有各种诡异的 bug
 npm i
+
 # 启动项目
 npm run start:dev
 ```

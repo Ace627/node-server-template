@@ -19,6 +19,7 @@ export class AppController {
   @Get('/tools/poem')
   @ApiOperation({ summary: '随机一条诗词名句' })
   getRandomPoem(): any {
-    return poemList[Math.floor(Math.random() * poemList.length)]
+    const record = poemList[Math.floor(Math.random() * poemList.length)]
+    return record
   }
 }
