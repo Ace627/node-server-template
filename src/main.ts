@@ -9,6 +9,7 @@ import SwaggerConfig from './config/swagger.config'
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule)
+  app.disable('x-powered-by') // 移除 X-Powered-By 响应头，让攻击者更难以看到您的站点可能支持哪些潜在的易受攻击技术点
   app.setGlobalPrefix(BASE_URL) // 添加全局路由前缀
   SwaggerConfig(app, API_DOC_URL)
   app.useStaticAssets('public') // 配置静态资源目录
