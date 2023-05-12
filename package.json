@@ -1,8 +1,7 @@
 {
   "name": "node-server",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "packageManager": "npm@8.19.4",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
