@@ -1,26 +1,27 @@
 import { Controller, Get } from '@nestjs/common'
-import crypto from 'crypto'
 import { ApiOperation, ApiTags } from '@nestjs/swagger'
+import { ToolsService } from './tools.service'
 
 @ApiTags('工具类接口')
 @Controller('tools')
 export class ToolsController {
+  constructor(private readonly toolsService: ToolsService) {}
+
   @Get('uuid')
   @ApiOperation({ summary: '随机生成一个 uuid' })
   getUUID(): string {
-    return crypto.randomUUID()
+    return this.toolsService.getUUID()
   }
 
   @Get('randomHexColor')
   @ApiOperation({ summary: '随机生成一个 Hex 格式的颜色' })
   getRandomHexColor(): string {
-    return `#${Math.floor(Math.random() * 0xffffff).toString(16)}`
+    return this.toolsService.getRandomHexColor()
   }
 
   @Get('randomRgbColor')
   @ApiOperation({ summary: '随机生成一个 Rgb 格式的颜色' })
   getRandomRgbColor(): string {
-    const random = (): number => Math.floor(Math.random() * 256)
-    return `rgb(${random()}, ${random()}, ${random()})`
+    return this.toolsService.getRandomRgbColor()
   }
 }
