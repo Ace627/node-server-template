@@ -9,10 +9,6 @@ interface ResponseData<T> {
 @Injectable()
 export default class ResponseInterceptor<T> implements NestInterceptor {
   intercept(context: ExecutionContext, next: CallHandler<T>): Observable<ResponseData<T>> {
-    return next.handle().pipe(
-      map(data => {
-        return { code: 200, msg: '获取成功', data }
-      }),
-    )
+    return next.handle().pipe(map(data => ({ code: 200, msg: '请求成功', data })))
   }
 }
