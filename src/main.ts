@@ -34,6 +34,6 @@ async function bootstrap() {
   await app.listen(3000)
 
   console.log(`Node Server is running at http://localhost:3000`)
-  console.log(`Swagger Api is running at http://localhost:3000/api-docs`)
+  console.log('接口文档访问地址: http://localhost:3000/doc.html')
 }
 bootstrap()

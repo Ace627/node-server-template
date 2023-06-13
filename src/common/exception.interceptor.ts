@@ -18,8 +18,8 @@ export default class ExceptionInterceptor implements ExceptionFilter {
     return response.json({
       code,
       msg,
-      path: request.url,
       data: null,
+      path: request.url,
       timestamp: new Date().toISOString(),
     })
   }

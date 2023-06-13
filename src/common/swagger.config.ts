@@ -12,5 +12,6 @@ export default (app: NestExpressApplication, path: string) => {
 
   const document = SwaggerModule.createDocument(app, options)
   SwaggerModule.setup(path, app, document)
+
   knife4jSetup(app, { urls: [{ name: 'admin api', url: `/${path}-json`, swaggerVersion: '3.0', location: `/${path}-json` }] })
 }
