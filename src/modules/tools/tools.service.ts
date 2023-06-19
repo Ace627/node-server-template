@@ -26,7 +26,7 @@ export class ToolsService {
     const resposne = await axios.get(`http://r.qzone.qq.com/fcg-bin/cgi_get_portrait.fcg?g_tk=1518561325&uins=${qq}`, { responseType: 'arraybuffer' })
     const nameReg = /portraitCallBack\((.*)\)/i
     const result = iconvLite.decode(resposne.data, 'GB2312')
-    const nickname = JSON.parse(result.match(nameReg)[1])[qq].at(-2)
+    const nickname = result.includes('error') ? '未知用户' : JSON.parse(result.match(nameReg)[1])[qq].at(-2) || ''
     const email = `${qq}@qq.com`
     const avatar = `http://q1.qlogo.cn/g?b=qq&nk=${qq}&s=100&t=${Date.now()}`
     return { qq, nickname, email, avatar }
