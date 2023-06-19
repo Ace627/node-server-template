@@ -1,5 +1,7 @@
 import { Injectable } from '@nestjs/common'
 import crypto from 'crypto'
+import axios from 'axios'
+import iconvLite from 'iconv-lite'
 
 @Injectable()
 export class ToolsService {
@@ -17,5 +19,16 @@ export class ToolsService {
   getRandomRgbColor(): string {
     const random = (): number => Math.floor(Math.random() * 256)
     return `rgb(${random()}, ${random()}, ${random()})`
+  }
+
+  // 根据 QQ 号获取用户信息
+  async getQQInfo(qq: string) {
+    const resposne = await axios.get(`http://r.qzone.qq.com/fcg-bin/cgi_get_portrait.fcg?g_tk=1518561325&uins=${qq}`, { responseType: 'arraybuffer' })
+    const nameReg = /portraitCallBack\((.*)\)/i
+    const result = iconvLite.decode(resposne.data, 'GB2312')
+    const nickname = JSON.parse(result.match(nameReg)[1])[qq].at(-2)
+    const email = `${qq}@qq.com`
+    const avatar = `http://q1.qlogo.cn/g?b=qq&nk=${qq}&s=100&t=${Date.now()}`
+    return { qq, nickname, email, avatar }
   }
 }
