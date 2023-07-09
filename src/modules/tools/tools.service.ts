@@ -23,7 +23,7 @@ export class ToolsService {
 
   // 根据 QQ 号获取用户信息
   async getQQInfo(qq: string) {
-    const resposne = await axios.get(`http://r.qzone.qq.com/fcg-bin/cgi_get_portrait.fcg?g_tk=1518561325&uins=${qq}`, { responseType: 'arraybuffer' })
+    const resposne = await axios.get(`https://users.qzone.qq.com/fcg-bin/cgi_get_portrait.fcg?uins=${qq}`, { responseType: 'arraybuffer' })
     const nameReg = /portraitCallBack\((.*)\)/i
     const result = iconvLite.decode(resposne.data, 'GB2312')
     const nickname = result.includes('error') ? '未知用户' : JSON.parse(result.match(nameReg)[1])[qq].at(-2) || ''
