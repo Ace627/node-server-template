@@ -5,6 +5,7 @@ import { AppModule } from './app.module'
 import ResponseInterceptor from './common/response.interceptor' // 全局响应拦截器
 import ExceptionInterceptor from './common/exception.interceptor' // 全局异常拦截器
 import SwaggerConfig from './common/swagger.config'
+import { getWlanIP } from '@/utils'
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule)
@@ -31,9 +32,13 @@ async function bootstrap() {
   // 配置全局验证管道
   app.useGlobalPipes(new ValidationPipe())
 
-  await app.listen(3000)
+  const SERVER_PORT = 3000
+  const WLAN_IP = getWlanIP()
+  await app.listen(SERVER_PORT)
 
-  console.log(`Node Server is running at http://localhost:3000`)
-  console.log('接口文档访问地址: http://localhost:3000/doc.html')
+  console.log(`Node Server is running at http://localhost:${SERVER_PORT}`)
+  console.log(`Node Server is running at http://${WLAN_IP}:${SERVER_PORT}`)
+  console.log(`接口文档访问地址: http://localhost:${SERVER_PORT}/doc.html`)
+  console.log(`接口文档访问地址: http://${WLAN_IP}:${SERVER_PORT}/doc.html`)
 }
 bootstrap()
