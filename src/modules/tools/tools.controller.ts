@@ -25,12 +25,4 @@ export class ToolsController {
   getRandomRgbColor(): string {
     return this.toolsService.getRandomRgbColor()
   }
-
-  @Get('qqInfo')
-  @ApiOperation({ summary: '根据 QQ 号获取用户信息' })
-  @ApiQuery({ name: 'qq', required: true, type: 'string', description: 'QQ 号码' })
-  getQQInfo(@Query('qq') qq: string) {
-    if (!isQQ(qq)) throw new HttpException('QQ 号码格式异常', HttpStatus.BAD_REQUEST)
-    return this.toolsService.getQQInfo(qq)
-  }
 }

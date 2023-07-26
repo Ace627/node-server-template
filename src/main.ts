@@ -32,7 +32,7 @@ async function bootstrap() {
   // 配置全局验证管道
   app.useGlobalPipes(new ValidationPipe())
 
-  const SERVER_PORT = 3000
+  const SERVER_PORT = 3023
   const WLAN_IP = getWlanIP()
   await app.listen(SERVER_PORT)
 
